@@ -61,7 +61,7 @@
 							started, grown &amp; sold <br />
 							businesses in Silicon Valley and abroad!
 						</h1>
-						<h3><a class="btn btn-link btn-lg" href="#" role="button"><i class="fa fa-reply fa-rotate-270"></i> We defy convetional thinking</a></h3>
+						<h3><a class="btn btn-link btn-lg" href="#" role="button"><i class="fa fa-reply fa-rotate-270"></i> We defy conventional thinking</a></h3>
 					</div>
 				</div>	
 			</div>
