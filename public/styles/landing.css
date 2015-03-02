@@ -1,0 +1,133 @@
+.page-content {
+	margin-top: 60px;
+}
+
+.cta-row {
+	text-align: center;
+	font-weight: bolder;
+	
+}
+
+.cta-row .btn-lg{
+	padding: 30px 0;
+	font-size: 1.35em;
+}
+
+.section-header {
+	text-align: center;
+	line-height: 1.4;
+	padding: 30px 30px;
+}
+
+.section-row {
+	border-bottom: 4px solid #337AB7;
+	min-height: 300px;
+}
+
+/* HOME SECTION */
+
+.jumbotron {
+	text-align: center;
+	padding: 60px 60px;
+}
+
+.jumbotron h1 {
+	font-size: 3.5em;
+	line-height: 1.4;
+	margin-bottom: 15px;
+	font-weight: normal;
+}
+.jumbotron h3 {
+	margin: 0;
+	padding: 0;
+}
+
+.jumbotron .btn {
+	margin-top: 20px;
+	font-size: 1.35em;
+}
+
+.btn-link {
+	font-weight: bolder;
+}
+
+/* SLIDESHOW */
+.word-carousel {
+	display: none;
+	font-weight: bolder;
+}
+
+.word-carousel.active {
+	display: inline;
+}
+
+
+/* MYTHS */
+.myth-row:first-child {
+	border-bottom: 1px solid #E7E7E7;
+	padding-bottom: 20px;
+}
+
+.myth-row p {
+	font-size: 1.25em;
+}
+
+.myth-row h4 {
+	font-weight: bolder;
+}
+
+/* UNIQUE */
+
+.difference-container {
+	text-align: center;
+	padding: 30px 45px;
+}
+
+.difference-container i {
+	font-size: 6em;
+}
+
+.difference-container p {
+	padding-top: 15px;
+	font-size: 1.25em;
+}
+
+/* SERVICE COL */
+.service-col {
+	text-align: center;
+}
+
+.service-col i {
+	font-size: 6em;
+	padding: 20px 0px;
+}
+
+.service-col .panel {
+	padding: 15px 20px;
+}
+
+.service-col p {
+	font-size: 1.25em;
+}
+
+
+/* FORM */
+
+.btn-submit {
+	width: 100%;
+}
+
+.alert {
+	text-align: center;
+	padding: 40px 30px;
+}
+
+.alert i {
+	font-size: 6em;
+	padding: 20px 0px;
+}
+
+.alert p {
+	font-size: 1.25em;
+}
+

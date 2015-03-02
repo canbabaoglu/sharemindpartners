@@ -14,13 +14,8 @@ return array(
 	|
 	*/
 
-	'mailgun' => array(
-		'domain' => '',
-		'secret' => '',
-	),
-
 	'mandrill' => array(
-		'secret' => '',
+		'secret' => getenv('MANDRILL_API_KEY'),
 	),
 
 	'stripe' => array(
