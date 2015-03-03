@@ -36,10 +36,12 @@ class LeadsController extends \BaseController {
 	 */
 	public function store()
 	{
+		
 		// Setup
-		$input    = Input::all();
-		$rules    = Lead::$rules;
-		$response = ['type' => 'success'];
+		$adminEmails = ['babaoglu.can@gmail.com', 'arinkeskin@gmail.com', 'gtalu@sabanciuniv.edu'];
+		$input       = Input::all();
+		$rules       = Lead::$rules;
+		$response    = ['type' => 'success'];
 
 		// Validate input
 		$validation = Validator::make($input, $rules);

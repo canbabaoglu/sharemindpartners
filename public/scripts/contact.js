@@ -1,6 +1,8 @@
 $(".contact-row form").submit(function(event) {
 	event.preventDefault();
 
+	hideShow(".contact-row form", ".contact-row .alert-success");
+
 	//get input field values data to be sent to server
     postData = {
         'name'          : $('input[name=name]').val(), 
@@ -12,34 +14,30 @@ $(".contact-row form").submit(function(event) {
 
     $('.contact-row .btn-submit').attr('disabled', 'disabled');
 
-    var base_url = 'http://localhost'
+    var postUrl = "http://sharemindpartners.app/leads"
     
     $.ajax({
-		type: "POST",
-		url: base_url+"/leads",
-		data: postData,
-		dataType: "json",
-		success: processJson, 
-		error: connectionError 
+		type      : "POST",
+		url       : postUrl,
+		data      : postData,
+		dataType  : "json",
+		success   : processJson, 
+		error     : connectionError 
 	});
 
 	function processJson(response) {
 
-		console.log('Success');
+		console.log(response);
 
-		/*
-		if (response.type == "success") {
-			hideShow(".contact-form-row", ".contact-row .confirmation-row");	
-		} else if (response.type == "error") {
-			hideShow(".contact-form-row", ".contact-row .error-row");
+		if (response.type == "error") {
+			hideShow(".contact-row form", ".contact-row .alert-danger");
 		}	
-		*/
 	}; 
 
 	
 	function connectionError() {
 		console.log('error');
-		//hideShow(".contact-form-row", ".contact-row .error-row");
+		hideShow(".contact-row form", ".contact-row .alert-danger");
 	};
 
 	

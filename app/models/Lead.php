@@ -10,7 +10,7 @@ class Lead extends \Eloquent {
 		'message_body'
 	];
 
-	public $rules = [
+	public static $rules = [
 		'name'          => 'required',
 		'email'         => 'required',
 		'phoneNo'       => 'required',
