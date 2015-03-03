@@ -14,11 +14,12 @@ $(".contact-row form").submit(function(event) {
 
     $('.contact-row .btn-submit').attr('disabled', 'disabled');
 
-    var postUrl = "http://sharemindpartners.app/leads"
+    var localUrl      = "http://sharemindpartners.app/leads";
+    var productionUrl = "http://sharemindpartners.com/leads";
     
     $.ajax({
 		type      : "POST",
-		url       : postUrl,
+		url       : productionUrl,
 		data      : postData,
 		dataType  : "json",
 		success   : processJson, 
