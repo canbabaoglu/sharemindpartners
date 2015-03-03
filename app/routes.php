@@ -11,9 +11,15 @@
 |
 */
 
+// Access Control Stuff  
+
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Headers: Origin, Content-Type, Accept, Authorization');
+header('Access-Control-Allow-Methods: POST, GET, OPTIONS, PUT, DELETE');
+
 Route::get('/', function()
 {
 	return View::make('landing');
 });
 
-Route::resource('prospects', 'ProspectsController');
+Route::resource('leads', 'LeadsController');

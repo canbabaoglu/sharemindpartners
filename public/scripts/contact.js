@@ -11,10 +11,12 @@ $(".contact-row form").submit(function(event) {
     };
 
     $('.contact-row .btn-submit').attr('disabled', 'disabled');
+
+    var base_url = 'http://localhost'
     
     $.ajax({
 		type: "POST",
-		url: "/prospects",
+		url: base_url+"/leads",
 		data: postData,
 		dataType: "json",
 		success: processJson, 
@@ -23,16 +25,21 @@ $(".contact-row form").submit(function(event) {
 
 	function processJson(response) {
 
+		console.log('Success');
+
+		/*
 		if (response.type == "success") {
 			hideShow(".contact-form-row", ".contact-row .confirmation-row");	
 		} else if (response.type == "error") {
 			hideShow(".contact-form-row", ".contact-row .error-row");
 		}	
+		*/
 	}; 
 
 	
 	function connectionError() {
-		hideShow(".contact-form-row", ".contact-row .error-row");
+		console.log('error');
+		//hideShow(".contact-form-row", ".contact-row .error-row");
 	};
 
 	
@@ -43,6 +50,6 @@ $(".contact-row form").submit(function(event) {
 		},1000);
 	}
 	
-	*/
+	
 	
 });  
