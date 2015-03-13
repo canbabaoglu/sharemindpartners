@@ -159,7 +159,7 @@
 								<p>  
 									Prior to SharedMindPartners our founders started a company in Silicon Valley that revolutionized how athletes 
 									analyze their videos. Theirs was the first cloud-based video analysis solution and it became immensely popular in winter sports. 
-									Over 55% of licensed skiracers in the US had accounts on the site and more 1,500,000 videos were analyzed. 
+									Over 55% of licensed skiracers in the US had accounts on the site and more than 1,500,000 videos were analyzed. 
 								</p>
 
 								<h4> <span class="label label-success">Result:</span> Sold it in September 2014!</h4>
@@ -249,7 +249,7 @@
 							<h2>Initial plan of action</h2>
 							<i class="fa fa-compass"></i>
 							<p>
-								Let's put together your roadmap to success!
+								Let's create your roadmap to success!
 							</p>
 						</div>
 						<ul>
@@ -263,24 +263,36 @@
 				</div>
 				<div class="col-md-4 service-col">
 					<div class="panel panel-default">
-						<h2>Turn-key delivery</h2>
-						<i class="fa fa-key"></i>
-						<p>
-							We'll build your project end-to-end. Our project managers will transparently report our progress 
-							to you so you are never left wandering. Our deliverables will also include in-depth documentation
-							of the code to ensure the sustainability of your project.
-						</p>
+						<div class="row service-header-row">
+							<h2>Turn-key delivery</h2>
+							<i class="fa fa-key"></i>
+							<p>
+								A to Z, let us build it for you!
+							</p>
+						</div>
+						<ul>
+							<li>Go from a plan to a finished product</li>
+							<li>Architecture and code folloeing best practices</li>
+							<li>In-depth documentation to ensure sustainability</li>
+							<li>Transparent, real-time progress reporting</li>
+						</ul>
 					</div>
 				</div>
 				<div class="col-md-4 service-col">
 					<div class="panel panel-default">
-						<h2>On-demand developers</h2>
-						<i class="fa fa-keyboard-o"></i>
-						<p>
-							Recruiting takes time and expertise.  Let us do the work for you. Tell us about your 
-							development needs and we'll provide you with the right developer. They'll become a part
-							of your team. And if you are unhappy with their performance we'll replace them free of charge. 
-						</p>
+						<div class="row service-header-row">
+							<h2>On-demand developers</h2>
+							<i class="fa fa-keyboard-o"></i>
+							<p>
+								Add top level talent with no hassle!
+							</p>
+						</div>
+						<ul>
+							<li>Our developers work as a part of your team</li>
+							<li>Hire generalists or specialists</li>
+							<li>Add them part-time or full-time</li>
+							<li>Scale up or down as your needs change</li>
+						</ul>
 					</div>	
 				</div>
 			</div>

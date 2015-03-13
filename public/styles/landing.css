@@ -188,17 +188,38 @@ body {
 	padding-right: 40px;
 }
 
+.service-col .panel {
+	padding: 15px 20px;
+}
+
+.service-header-row {
+	padding-bottom: 15px;
+}
+
 .service-col i {
 	font-size: 6em;
 	padding: 20px 0px;
 }
 
-.service-col .panel {
-	padding: 15px 20px;
-}
-
 .service-col p {
 	font-size: 1.25em;
+	font-style: italic;
+}
+
+.service-col ul {
+	list-style: none;
+	margin: 0;
+	padding: 20px 0 5px 0;
+	border-top: 2px solid grey;
+}
+
+.service-col ul li {
+	padding: 10px 0;
+	border-bottom: 1px solid #D8D8D8;
+}
+
+.service-col ul li:last-child {
+	border-bottom: none;
 }
 
 
