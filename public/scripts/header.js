@@ -55,12 +55,12 @@ function getcurrentNavIndex() {
 function getSectionStartHeights() {
 
 	var headerHeight = $(".navbar").height();
-	var conventionStartHeight = headerHeight + $(".home-row").height();
-	var differentiationStartHeight = conventionStartHeight + $(".myths-row").height();
-	var servicesStartHeight = differentiationStartHeight +$(".differentiation-row").height();
+	var differentiationStartHeight = headerHeight + $(".home-row").height();
+	var workStartHeight = differentiationStartHeight + $(".differentiation-row").height();
+	var servicesStartHeight = workStartHeight +$(".work-row").height();
 	var contactStartHeight = servicesStartHeight + $(".services-row").height();
 
-	var startHeights = [0, conventionStartHeight, differentiationStartHeight, servicesStartHeight, contactStartHeight];
+	var startHeights = [0, differentiationStartHeight, workStartHeight, servicesStartHeight, contactStartHeight];
 
 	return startHeights;
 }

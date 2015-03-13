@@ -14,7 +14,7 @@ class LeadsController extends \BaseController {
 	 */
 	public function index()
 	{
-		//
+
 	}
 
 
@@ -38,7 +38,6 @@ class LeadsController extends \BaseController {
 	{
 		
 		// Setup
-		$adminEmails = ['babaoglu.can@gmail.com', 'arinkeskin@gmail.com', 'gtalu@sabanciuniv.edu'];
 		$input       = Input::all();
 		$rules       = Lead::$rules;
 		$response    = ['type' => 'success'];
@@ -56,12 +55,13 @@ class LeadsController extends \BaseController {
 			return Response::json($response);
 		}
 
-		// $newlead = Lead::create($input); 
+		//$newlead = Lead::create($input); 
 
 		// email to Omer TODO: DONT FORGET TO CHANGE IT TO OMERS EMAIL
 		Mail::send('emails.leads.adminnotify', $input, function($message)
 		{
-			$message->to('babaoglu.can@gmail.com')->subject('ShareMindPartners.com Lead');
+			$message->to('babaoglu.can@gmail.com', 'arinkeskin@gmail.com', 'gtalu@sabanciuniv.edu')
+			->subject('ShareMindPartners.com Lead');
 		});
 
 		// email to prospect

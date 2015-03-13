@@ -19,7 +19,7 @@ $(".contact-row form").submit(function(event) {
     
     $.ajax({
 		type      : "POST",
-		url       : productionUrl,
+		url       : localUrl,
 		data      : postData,
 		dataType  : "json",
 		success   : processJson, 

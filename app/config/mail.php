@@ -54,7 +54,7 @@ return array(
 	|
 	*/
 
-	'from' => ['address' => 'info@sharemindpartners', 'name' => 'ShareMindPartners'],
+	'from' => ['address' => 'babaoglu.can@gmail.com', 'name' => 'ShareMindPartners'],
 
 	/*
 	|--------------------------------------------------------------------------

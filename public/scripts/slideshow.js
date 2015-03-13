@@ -3,8 +3,8 @@ $( document ).ready(function() {
 	var i              = 0;
 	var j              = 0;
 	var noSlides       = $('.word-carousel').length;
-	var transitionTime = 1000;
-	var slideTime      = 4000;
+	var transitionTime = 2000;
+	var slideTime      = 6000;
 	var repeat         = 250;
 
 	function runSlides() {
@@ -17,7 +17,7 @@ $( document ).ready(function() {
 		}, slideTime);
 	}
 
-	runSlides();
+	//runSlides();
 });
 
 function nextSlide(index, duration) {

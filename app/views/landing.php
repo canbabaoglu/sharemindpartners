@@ -12,11 +12,15 @@
     <!-- CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> 
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/Animate.css"> 
+     <link rel="stylesheet" href="styles/morphext.css"> 
     <link rel="stylesheet" href="styles/landing.css"> 
 
      <!-- SCRIPTS -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="scripts/morphext.js"></script>
+	<!--<script type="text/javascript" src="scripts/unslider.js"></script>-->
 
 </head>
 
@@ -37,158 +41,197 @@
     		<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li class="active"><a>Home <span class="sr-only">(current)</span></a></li>
-					<li><a>Defying Convention</a></li>
 					<li><a>Differentiation</a></li>
+					<li><a>Work</a></li>
 					<li><a>Services</a></li>
 					<li><a>Contact us</a></li>
+					<li><a>We're Hiring</a></li>
+
 				</ul>
 			</div>
   	</nav>
 
 	<div class="container page-content">
 		
-		<!-- Home -->
+		<!-- HOME -->
 		<div class="row section-row home-row">
-			<div class="col-md-12">
-
-				<div class="jumbotron">
-					<div class="row slideshow-row active">
-						<h1>
-							We are <span class="word-carousel active">entrepreneurs,</span> 
-								   <span class="word-carousel">engineers,</span> 
-								   <span class="word-carousel">project-managers,</span><br />
-							who have <br /> 
-							started, grown &amp; sold <br />
-							businesses in Silicon Valley and abroad!
-						</h1>
-						<h3><a class="btn btn-link btn-lg" href="#" role="button"><i class="fa fa-reply fa-rotate-270"></i> We defy conventional thinking</a></h3>
-					</div>
-				</div>	
+			<div class="col-md-12">		
+				<h1>
+					We build mobile &amp; web applications
+				</h1>
+				<div class="row icons-row">
+					<i class="fa fa-mobile"></i>
+					<i class="fa fa-tablet"></i>	
+					<i class="fa fa-desktop"></i>
+				</div>
+				<h1>on-time and on-budget</h1>
+				<h3 class="home-cta">
+					<a class="btn btn-link btn-lg" href="#" role="button">
+						<i class="fa fa-reply fa-rotate-270"></i> 
+						Wondering how we pull it off?
+					</a>
+				</h3>			
 			</div>
 		</div>
 		
-		<!-- Myths -->
-		<div class="row section-row myths-row">
-
-			<h1 class="section-header col-md-10 col-md-offset-1">
-				We bust software development myths, and help you achieve your dreams
-			</h1>
-
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<div class="row myth-row">
-						<div class="col-md-2">
-							<h3> Myth #1</h3>
-						</div>
-						<div class="col-md-10">
-							<h3>High quality software development will cost you a fortune.</h3>
-							<p>
-								If you know the tricks of the trade it doesn’t have to.  With clever 
-								prioritization and the correct choice of technology stack, it is possible 
-								to get great results while curbing costs. Having bootstrapped our own startups
-								we are experts at this.
-							</p>  
-							<p> 
-								Another skill that we've learned from our bootstrapping days is identifying, 
-								developing and managing great developers. Putting all of this
-								together allows us to produce top quality work at affordable prices.
-							</p>
-
-							<h4> VERDICT: Not with us! </h4>
-						</div>
-					</div>
-					<div class="row myth-row">
-						<div class="col-md-2">
-							<h3> Myth #2</h3>
-						</div>
-						<div class="col-md-10">
-							<h3>You need to have a technical background.</h3>
-							<p>
-								You need a great vision to get things started and that does not 
-								require a technical background.  However, a technical background 
-								comes in real handy when putting together a plan and executing that plan.
-							</p>
-							<p>
-								This is where our years of project-management expertise comes in. 
-								Our project managers are well-versed in both “business” and “geek” speak.  
-								They can effectively communicate your vision to the technical team, while explaining 
-								technical concepts to you in plain English.
-							</p>
-
-							<h4> VERDICT: Not with us! </h4>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row cta-row">
-				<h3><a class="btn btn-link btn-lg" href="#" role="button"><i class="fa fa-reply fa-rotate-270"></i> How do we pull it off?</a></h3>
-			</div>
-		</div>
-
-
-		<!-- About -->
+		<!-- DIFFERENTIATION -->
 		<div class="row section-row differentiation-row">
-			
-			<h1 class="section-header col-md-10 col-md-offset-1">
-				We gained the required expertise while working on our startups
-			</h1>
+			<div class="col-md-12">
+				<h1 class="section-header">
+					We have a very particular set of skills
+				</h1>
+				<div class="row word-carousel-row">
 
-			<div class="row">
-				<div class="col-md-6">
-					<div class="difference-container">
-						<i class="fa fa-trophy"></i>
-						<h2>We have the entrepreneurial expertise</h2>
-						<p>
-							Our founders have bootstrapped startups to exits in Silicon Valley and abroad.
-							Along the way we've learned lessons and skills that makes us unique.
-							We know how to stretch a dollar; we know how to prioritize; we know that growth needs to built-in
-							to your product. In short, we know the small things that make the difference between winning and losing.  
-						</p>
+					
+					<p>
+						<span class="word-carousel">
+							We are <span style="keyword">entrepreneurs</span>, who have started, grown &amp; sold businesses in Silicon Valley and abroad!  
+							|
+							We are <span class="keyword">project-managers</span>, who have delivered 100,000 man-hour projects for GSM operators and banks.
+							|
+							We are <span class="keyword">engineers</span>, who built prototypes in record-time and also scaled them for millions of users.
+						</span>
+					</p>
+					
+				</div>
+				<div class="row difference-row">
+					<div class="col-md-4">
+						<div class="difference-container">
+							<i class="fa fa-trophy"></i>
+							<h3>We have the entrepreneurial expertise</h3>
+							<p>
+								Our founders have bootstrapped startups to exits in Silicon Valley and abroad.
+								They've learned the small things that make the difference between winning and losing.  
+							</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="difference-container">
+							<i class="fa fa-tasks"></i>
+							<h3>We have the large project expertise</h3>
+							<p>
+								Our founders have bootstrapped startups to exits in Silicon Valley and abroad.
+								They've learned the small things that make the difference between winning and losing.  
+							</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="difference-container">
+							<i class="fa fa-cogs"></i>
+							<h3>We have the technical expertise</h3>
+							<p>  
+								We've built websites, iOS and Android apps for startups as well as multinationals. 
+								We know how to build things fast, but we also know how to scale
+								them for millions of users.
+							</p>
+						</div>
 					</div>
 				</div>
-				<div class="col-md-6">
-					<div class="difference-container">
-						<i class="fa fa-cogs"></i>
-						<h2>We have the technical <br /> expertise</h2>
-						<p>
-							We are, first and foremost, engineers. We've built websites, iOS and Android apps. 
-							We've done it for our startups as well as for multinational banks and GSM operators.  
-							We know how to build things fast, but we also know how and when to scale
-							them for millions of users.  We can get your ideas to market fast and address 
-							your needs as you grow.
-						</p>
-					</div>
-				</div>
+
+				<h3 class="cta-row">
+					<a class="btn btn-link btn-lg" href="#" role="button">
+						<i class="fa fa-reply fa-rotate-270"></i> 
+						Take a closer look at our track record
+					</a>
+				</h3>
+
 			</div>
-			<div class="row">
-				<div class="col-md-6">
-					<div class="difference-container">
-						<i class="fa fa-users"></i>
-						<h2>We have the international recruiting expertise</h2>
-						<p>
-							We know you are only as good as your people. We've recruited exceptional international
-							teams for our own startups in the past. We start by recruiting the best 
-							international talent; we systematically pass on our Silicon Valley know-how to 
-							them; and we use proven tools and processes to get superior results.   
-						</p>
+		</div>		
+
+		<!-- WORK -->
+		<div class="row section-row work-row">
+			<div class="col-md-12">
+				<h1 class="section-header">
+					We've succeeded with our own startups and <br />
+					as contractors for big business
+				</h1>
+
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<!-- Video Analysis -->
+						<div class="row work-example">
+							<div class="col-md-2 icon-col">
+								<i class="fa fa-youtube-play"></i>
+							</div>
+
+							<div class="col-md-10">
+								<h3>We revolutionized video analysis for sports</h3>
+								<p>  
+									Prior to SharedMindPartners our founders started a company in Silicon Valley that revolutionized how athletes 
+									analyze their videos. Theirs was the first cloud-based video analysis solution and it became immensely popular in winter sports. 
+									Over 55% of licensed skiracers in the US had accounts on the site and more 1,500,000 videos were analyzed. 
+								</p>
+
+								<h4> <span class="label label-success">Result:</span> Sold it in September 2014!</h4>
+							</div>
+						</div>
 						
+						<!-- GSM -->
+						<div class="row work-example">
+							
+							<div class="col-md-2 icon-col">
+								<i class="fa fa-mobile"></i>
+							</div>	
+
+							<div class="col-md-10">
+								<h3> We've built consumer apps for GSM operators</h3>
+								<p>
+									<strong>GUCLU</strong><br/>
+									We've built websites, iOS and Android apps for startups as well as multinationals. 
+									We know how to build things fast, but we also know how to scale
+									them for millions of users.
+								</p>
+
+								<h4> <span class="label label-success">Result:</span> GUCLU</h4>
+							</div>
+
+						</div>
+
+						<!-- Hospitals -->
+						<div class="row work-example">
+							<div class="col-md-2 icon-col">
+								<i class="fa fa-stethoscope"></i>
+							</div>
+
+							<div class="col-md-10">
+								<h3>We re-imagined how hospitals are run</h3>
+								<p>
+									<strong>GUCLU</strong><br/>
+									We've built websites, iOS and Android apps for startups as well as multinationals. 
+									We know how to build things fast, but we also know how to scale
+									them for millions of users.
+								</p>
+
+								<h4> <span class="label label-success">Result:</span> GUCLU</h4>
+							</div>
+						</div>
+
+						<!-- Banks -->
+						<div class="row work-example">
+							
+							<div class="col-md-2 icon-col">
+								<i class="fa fa-university"></i>
+							</div>	
+
+							<div class="col-md-10">
+								<h3>We've restructured legacy IT systems for international banks.</h3>
+								<p>
+									<strong>GUCLU</strong><br/>
+									We've built websites, iOS and Android apps for startups as well as multinationals. 
+									We know how to build things fast, but we also know how to scale
+									them for millions of users.
+								</p>
+
+								<h4> <span class="label label-success">Result:</span> GUCLU</h4>
+							</div>
+							
+						</div>
 					</div>
 				</div>
-				<div class="col-md-6">
-					<div class="difference-container">
-						<i class="fa fa-clock-o"></i>
-						<h2>We deliver on-time and <br /> on-budget</h2>
-						<p>
-							We've never had the luxury of finishing late or over budget in our own startups.
-							It takes inspiration and perspiration to deliver on-time. We've used out-of-the-box 
-							thinking and a never-give-up attitude to get results on-time and on-budget.  
-							Now we bring the same know-how and tenacious approach to your projects.  
-						</p>
-					</div>
+			
+				<div class="row cta-row">
+					<h3><a class="btn btn-link btn-lg" href="#" role="button"><i class="fa fa-reply fa-rotate-270"></i> See our services</a></h3>
 				</div>
-			</div>
-			<div class="row cta-row">
-				<h3><a class="btn btn-link btn-lg" href="#" role="button"><i class="fa fa-reply fa-rotate-270"></i> What do we offer?</a></h3>
 			</div>
 
 		</div>
@@ -202,13 +245,20 @@
 			<div class="row">
 				<div class="col-md-4 service-col">
 					<div class="panel panel-default">
-						<h2>Initial plan of action</h2>
-						<i class="fa fa-compass"></i>
-						<p>
-							We'll start by using proven systems to go from ideas to actionable items. Then we'll
-							help you visualize your product with mockups, flows, user stories and maybe even a few coded
-							screens. Finally, we'll finish by putting together a step-by-step development plan.
-						</p>
+						<div class="row service-header-row">
+							<h2>Initial plan of action</h2>
+							<i class="fa fa-compass"></i>
+							<p>
+								Let's put together your roadmap to success!
+							</p>
+						</div>
+						<ul>
+							<li>See your big picture with a lean canvas</li>
+							<li>Visualize your product with balsamiq flows</li>
+							<li>Get a profesionally designed interface</li>
+							<li>Get a step-by-step development plan</li>
+						</ul>
+
 					</div>
 				</div>
 				<div class="col-md-4 service-col">

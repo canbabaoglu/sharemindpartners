@@ -1,5 +1,7 @@
 $( document ).ready(function() {
 	setHomeSectionMinHeight();
+	verticalAlign(".work-example", ".icon-col");
+	$(".word-carousel").Morphext();
 });
 
 /* --------------------- HELPER FUNCTIONS -------------------- */

@@ -1,11 +1,23 @@
+/* --------------------------------------------- */
+/* -------------------- BASICS ----------------- */
+/* --------------------------------------------- */
+
+body {
+	background-color: #EFF8FB;
+}
+
 .page-content {
 	margin-top: 60px;
 }
 
+
+/* --------------------------------------------- */
+/* -------------------- CTAS ------------------- */
+/* --------------------------------------------- */
+
 .cta-row {
 	text-align: center;
-	font-weight: bolder;
-	
+	font-weight: bolder;	
 }
 
 .cta-row .btn-lg{
@@ -13,10 +25,18 @@
 	font-size: 1.35em;
 }
 
+.btn-link {
+	font-weight: bolder;
+}
+
+/* --------------------------------------------- */
+/* ------------------ SECTIONS ----------------- */
+/* --------------------------------------------- */
+
 .section-header {
 	text-align: center;
 	line-height: 1.4;
-	padding: 30px 30px;
+	padding: 30px 60px;
 }
 
 .section-row {
@@ -24,67 +44,58 @@
 	min-height: 300px;
 }
 
-/* HOME SECTION */
 
-.jumbotron {
+/* --------------------------------------------- */
+/* ---------------- HOME SECTION --------------- */
+/* --------------------------------------------- */
+
+.home-row {
 	text-align: center;
-	padding: 60px 60px;
+	padding: 20px 60px;
 }
 
-.jumbotron h1 {
+.home-row h1 {
 	font-size: 3.5em;
 	line-height: 1.4;
 	margin-bottom: 15px;
-	font-weight: normal;
 }
-.jumbotron h3 {
+
+.home-row .icons-row {
+	padding: 40px 0;
+}
+
+.home-row .icons-row i {
+	font-size: 9.5em;
+	margin: 0 20px;
+}
+
+.home-row h3 {
 	margin: 0;
 	padding: 0;
 }
 
-.jumbotron .btn {
+.home-row .btn {
 	margin-top: 20px;
 	font-size: 1.35em;
 }
 
-.btn-link {
-	font-weight: bolder;
+/* --------------------------------------------- */
+/* ------------- DIFFERENTIATION --------------- */
+/* --------------------------------------------- */
+
+.difference-row,
+.word-carousel-row {
+	max-width: 1080px;
+	margin: 0 auto;
 }
-
-/* SLIDESHOW */
-.word-carousel {
-	display: none;
-	font-weight: bolder;
-}
-
-.word-carousel.active {
-	display: inline;
-}
-
-
-/* MYTHS */
-.myth-row:first-child {
-	border-bottom: 1px solid #E7E7E7;
-	padding-bottom: 20px;
-}
-
-.myth-row p {
-	font-size: 1.25em;
-}
-
-.myth-row h4 {
-	font-weight: bolder;
-}
-
-/* UNIQUE */
 
 .difference-container {
 	text-align: center;
-	padding: 30px 45px;
+	padding: 30px 5px;
 }
 
 .difference-container i {
-	font-size: 6em;
+	font-size: 4em;
 }
 
 .difference-container p {
@@ -92,9 +103,89 @@
 	font-size: 1.25em;
 }
 
-/* SERVICE COL */
+/* Slideshow */
+.word-carousel-row {
+	position: relative; 
+	overflow: auto;
+	padding: 30px 60px;
+	min-height: 120px;
+}
+
+.word-carousel-row li { 
+	list-style: none; 
+}
+
+.word-carousel-row ul li { 
+	float: left; 
+}
+
+.word-carousel {
+	text-align: center;
+	font-size: 2em;
+}
+
+.word-carousel .keyword {
+	font-weight: bold;
+}
+
+.word-carousel.active {
+	display: block;
+}
+
+
+/* --------------------------------------------- */
+/* ------------------- WORK -------------------- */
+/* --------------------------------------------- */
+
+.work-example {
+	border-bottom: 1px solid grey;
+	vertical-align: center;
+	padding: 20px 0;
+}
+
+.work-example:last-child {
+	border-bottom: none;
+}
+
+.work-example h3 {
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.work-example p {
+	font-size: 1.1em;
+}
+
+.icon-col {
+	text-align: center;
+}
+
+.icon-col  i {
+	font-size: 6em;
+}
+
+.label {
+	font-size: 0.9em;
+	position: relative;
+	top: -2px;
+}
+
+
+/* --------------------------------------------- */
+/* ----------------- SERVICES ------------------ */
+/* --------------------------------------------- */
+
 .service-col {
 	text-align: center;
+	padding: 0 20px;
+}
+
+.service-col:first-child {
+	padding-left: 40px;
+}
+
+.service-col:last-child {
+	padding-right: 40px;
 }
 
 .service-col i {
@@ -111,7 +202,9 @@
 }
 
 
-/* FORM */
+/* --------------------------------------------- */
+/* ------------------ CONTACT ------------------ */
+/* --------------------------------------------- */
 
 .btn-submit {
 	width: 100%;
